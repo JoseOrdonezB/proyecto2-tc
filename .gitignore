@@ -1,0 +1,139 @@
+# --- Python bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Extensiones C ---
+*.so
+
+# --- Distribución / empaquetado ---
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Logs de instaladores ---
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Tests y cobertura ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+coverage/
+
+# --- Traducciones ---
+*.mo
+*.pot
+
+# --- Django ---
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# --- Flask ---
+instance/
+.webassets-cache
+
+# --- Scrapy ---
+.scrapy
+
+# --- Sphinx ---
+docs/_build/
+doc/_build/
+
+# --- PyBuilder ---
+target/
+
+# --- Notebooks / IPython ---
+.ipynb_checkpoints/
+ipython_config.py
+
+# --- Entornos (pyenv, pipenv, poetry, pdm) ---
+.python-version
+Pipfile.lock
+poetry.lock
+.poetry/
+pdm.lock
+__pypackages__/
+
+# --- Tipado y análisis estático ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# --- Depuración Cython ---
+cython_debug/
+
+# --- Entornos virtuales y variables ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.env
+
+# --- IDEs / editores ---
+.vscode/
+.history/
+.idea/
+
+# --- SO (macOS / Windows) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Logs y cachés varias ---
+*.log
+logs/
+.cache/
+
+# --- Celery ---
+celerybeat-schedule
+celerybeat.pid
+
+# --- Bases de datos locales ---
+*.sqlite3
+
+# --- Claves/credenciales locales ---
+*.pem
+*.key
+.aws/
+
+# --- Temporales ---
+*.tmp
+*.swp
+*~
+~$*
